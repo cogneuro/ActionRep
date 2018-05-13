@@ -18,8 +18,7 @@ TT = [dataArray{1:end-1}];
 clearvars filename delimiter startRow formatSpec fileID dataArray ans;
 
 %% Study info
-% SN = unique(TT(:,1));
-SN = 2:9;
+SN = unique(TT(:,1));
 
 durSTM=2;						% stimulus event in TR, 0 for event-related designs
 
